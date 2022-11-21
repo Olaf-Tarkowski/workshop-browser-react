@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/workshop-browser-react/static/js/main.4ab6da3a.js",
+    "static/js/787.d4339bff.chunk.js": "/workshop-browser-react/static/js/787.d4339bff.chunk.js",
+    "index.html": "/workshop-browser-react/index.html",
+    "main.4ab6da3a.js.map": "/workshop-browser-react/static/js/main.4ab6da3a.js.map",
+    "787.d4339bff.chunk.js.map": "/workshop-browser-react/static/js/787.d4339bff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.4ab6da3a.js"
+  ]
+}
