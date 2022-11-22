@@ -1,4 +1,7 @@
 import { Switch, Route, Redirect, HashRouter } from "react-router-dom";
+import About from "../../features/About";
+import Contact from "../../features/Contact";
+import Home from "../../features/Home";
 import { StyledList, StyledNavLink } from "./styled";
 
 const Header = () => {
@@ -7,21 +10,22 @@ const Header = () => {
     <HashRouter>
       <nav>
         <StyledList>
-          <li><StyledNavLink to="/zadania">O mnie</StyledNavLink></li>
-          <li><StyledNavLink to="/autor">Cennik</StyledNavLink></li>
+          <li><StyledNavLink to="/home">Home</StyledNavLink></li>
+          <li><StyledNavLink to="/about">About</StyledNavLink></li>
+          <li><StyledNavLink to="/contact">Contact</StyledNavLink></li>
         </StyledList>
       </nav>
       <Switch>
-        <Route path="/zadania/:id">
-          <div>Hejka</div>
+        <Route path="/home">
+        <Home/>
         </Route>
-        <Route path="/zadania">
-        <div>Hej</div>
+        <Route path="/about">
+        <About />
         </Route>
-        <Route path="/autor">
-        <div>Autor</div>
+        <Route path="/contact">
+        <Contact />
         </Route>
-        <Redirect to="/zadania" />
+        <Redirect to="/home" />
       </Switch>
     </HashRouter>
   );
