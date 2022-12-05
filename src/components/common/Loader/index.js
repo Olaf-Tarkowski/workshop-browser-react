@@ -4,7 +4,7 @@ import DarkLogo from "../../resources/images/NewSvg.svg"
 
 const Loader = () => {
   return (
-    <LoaderContainer isLight={isLight}>
+    <LoaderContainer>
       <Logo src={DarkLogo} alt={""} />
     </LoaderContainer>
   );

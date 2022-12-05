@@ -9,8 +9,8 @@ export const LoaderContainer = styled.div`
   display: flex;
   justify-content: center;
   align-content: center;
-  /* background: ${props => props.isLight ? colors.lightGrey : colors.darkGrey}; */
-  z-index: 9999;
+  z-index: 99;
+  /* background: white; */
 `;
 
 export const Logo = styled.img`
