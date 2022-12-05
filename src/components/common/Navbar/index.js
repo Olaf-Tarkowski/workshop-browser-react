@@ -4,7 +4,7 @@ import Contact from "../../features/Contact";
 import Home from "../../features/Home";
 import { StyledList, StyledNavLink } from "./styled";
 
-const Header = () => {
+const Navbar = () => {
 
   return (
     <HashRouter>
@@ -31,4 +31,4 @@ const Header = () => {
   );
 }
 
-export default Header;
+export default Navbar;
