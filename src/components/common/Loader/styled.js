@@ -7,13 +7,20 @@ export const LoaderContainer = styled.div`
   top: 0;
   left: 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   z-index: 99;
-  /* background: white; */
+  background: #e7e7e7;
 `;
 
 export const Logo = styled.img`
-  width: 40vw;
-  max-width: 600px;
+  max-width: 800px;
+`;
+
+export const Text = styled.div`
+margin: 30px 0 0;
+  font-family: "Unica One", cursive;
+  font-size: 30px;
+  color: black;
 `;
