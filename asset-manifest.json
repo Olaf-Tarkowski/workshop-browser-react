@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.js": "/workshop-browser-react/static/js/main.4ab6da3a.js",
+    "main.js": "/workshop-browser-react/static/js/main.c3875935.js",
     "static/js/787.d4339bff.chunk.js": "/workshop-browser-react/static/js/787.d4339bff.chunk.js",
+    "static/media/FooxLogo.png": "/workshop-browser-react/static/media/FooxLogo.6ba13f72c310c5223b68.png",
     "index.html": "/workshop-browser-react/index.html",
-    "main.4ab6da3a.js.map": "/workshop-browser-react/static/js/main.4ab6da3a.js.map",
+    "main.c3875935.js.map": "/workshop-browser-react/static/js/main.c3875935.js.map",
     "787.d4339bff.chunk.js.map": "/workshop-browser-react/static/js/787.d4339bff.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.4ab6da3a.js"
+    "static/js/main.c3875935.js"
   ]
 }
