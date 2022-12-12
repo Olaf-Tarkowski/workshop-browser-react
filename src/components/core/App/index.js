@@ -1,16 +1,16 @@
 import Footer from "../../common/Footer";
 import Loader from "../../common/Loader";
 import Navbar from "../../common/Navbar";
-import { StyledPage } from "./styled";
+import { Container } from "./styled";
 
 function WorkshopBrowser() {
 
   return (
-    <StyledPage>
+    <Container>
       <Loader />
       <Navbar />
       <Footer />
-    </StyledPage>
+    </Container>
   );
 }
 
