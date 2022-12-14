@@ -1,13 +1,13 @@
 import Footer from "../../common/Footer";
-import Loader from "../../common/Loader";
 import Navbar from "../../common/Navbar";
+import IsComming from "../IsComming";
 import { Container } from "./styled";
 
 function WorkshopBrowser() {
 
   return (
     <Container>
-      <Loader />
+      <IsComming />
       <Navbar />
       <Footer />
     </Container>
