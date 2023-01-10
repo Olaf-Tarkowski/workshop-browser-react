@@ -7,7 +7,7 @@ function WorkshopBrowser() {
 
   return (
     <Container>
-      <IsComming />
+      {/* <IsComming /> */}
       <Navbar />
       <Footer />
     </Container>
