@@ -1,7 +1,10 @@
 export const theme = {
   color: {
-    white: '#FFFFFF',
-    black: '#000000',
+    white: "#FFFFFF",
+    black: "#000000",
+    alabaster: "#FAFAFA",
+    gray: "#848b95",
+    pampas: '#FBFBF9',
   },
   breakpoint: {
     xxl: "1400px",
@@ -10,6 +13,6 @@ export const theme = {
     md: "768px",
     sm: "576px",
     xs: "575px",
-    xxs: "375px"
+    xxs: "375px",
   },
 };
