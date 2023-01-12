@@ -1,6 +1,6 @@
 import Footer from "../../common/Footer";
 import Navbar from "../../common/Navbar";
-import IsComming from "../IsComming";
+// import IsComming from "../IsComming";
 import { Container } from "./styled";
 
 function WorkshopBrowser() {
