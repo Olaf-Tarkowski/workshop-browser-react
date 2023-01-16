@@ -15,6 +15,7 @@ export const InvitationContainer = styled.div`
 `;
 
 export const Logo = styled.img`
+  transition: all 300ms ease-out;
   max-width: 800px;
 `;
 
