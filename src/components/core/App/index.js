@@ -1,13 +1,13 @@
 import Footer from "../../common/Footer";
 import Navbar from "../../common/Navbar";
-// import IsComming from "../IsComming";
+import PreLoading from "../../common/PreLoading";
 import { Container } from "./styled";
 
 function WorkshopBrowser() {
 
   return (
     <Container>
-      {/* <IsComming /> */}
+      <PreLoading />
       <Navbar />
       <Footer />
     </Container>
