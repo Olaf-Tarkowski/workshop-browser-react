@@ -19,7 +19,7 @@ function PreLoading() {
     if (!logoDisplayed) {
       setTimeout(() => {
         setLogoDisplayed(true);
-      }, 3000);
+      }, 2300);
       setTimeout(() => {
         setAnimation(true);
       }, 1000);
