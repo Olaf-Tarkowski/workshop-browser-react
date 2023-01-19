@@ -1,11 +1,7 @@
+import Container from "../../common/Container";
 
 const About = () => {
-
-  return (
-    <div>
-      About
-    </div>
-  );
-}
+  return <Container>About</Container>;
+};
 
 export default About;

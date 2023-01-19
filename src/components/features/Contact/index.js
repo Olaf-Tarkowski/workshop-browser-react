@@ -1,11 +1,7 @@
+import Container from "../../common/Container";
 
 const Contact = () => {
-
-  return (
-    <div>
-      Contact
-    </div>
-  );
-}
+  return <Container>Contact</Container>;
+};
 
 export default Contact;
