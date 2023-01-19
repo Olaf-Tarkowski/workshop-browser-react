@@ -3,10 +3,12 @@ import DarkLogo from "../../resources/images/FooxLogo.png";
 import { InvitationContainer, Logo } from "./styled";
 
 function PreLoading() {
+  const [animation, setAnimation] = useState(false);
+  console.log(animation)
   const [logoDisplayed, setLogoDisplayed] = useState(
     localStorage.getItem("logoDisplayed") || false
   );
-
+console.log(logoDisplayed)
   useEffect(() => {
     localStorage.setItem("logoDisplayed", logoDisplayed);
   }, [logoDisplayed]);
@@ -15,15 +17,22 @@ function PreLoading() {
     if (!logoDisplayed) {
       setTimeout(() => {
         setLogoDisplayed(true);
-      }, 1500);
+      }, 3000);
+      setTimeout(() => {
+        setAnimation(true);
+      }, 1000);
     }
   }, [logoDisplayed]);
 
-  return (
-    <InvitationContainer logoDisplayed={logoDisplayed}>
-      <Logo src={DarkLogo} alt={""} logoDisplayed={logoDisplayed} />
-    </InvitationContainer>
-  );
+  if (!logoDisplayed) {
+    return (
+      <InvitationContainer logoDisplayed={animation}>
+        <Logo src={DarkLogo} alt={""} logoDisplayed={animation} />
+      </InvitationContainer>
+    );
+  } else {
+    return null;
+  }
 }
 
 export default PreLoading;
