@@ -3,15 +3,17 @@ import DarkLogo from "../../resources/images/FooxLogo.png";
 import { InvitationContainer, Logo } from "./styled";
 
 function PreLoading() {
-  const [animation, setAnimation] = useState(false);
-  console.log(animation)
+  const [animation, setAnimation] = useState(
+    localStorage.getItem("animation") || false
+  );
   const [logoDisplayed, setLogoDisplayed] = useState(
     localStorage.getItem("logoDisplayed") || false
   );
-console.log(logoDisplayed)
+
   useEffect(() => {
+    localStorage.setItem("animation", animation);
     localStorage.setItem("logoDisplayed", logoDisplayed);
-  }, [logoDisplayed]);
+  }, [animation, logoDisplayed]);
 
   useEffect(() => {
     if (!logoDisplayed) {
