@@ -11,7 +11,7 @@ export const InvitationContainer = styled.div`
   justify-content: center;
   align-items: center;
   z-index: 99;
-  background: #e7e7e7;
+  background: ${({ theme }) => theme.color.grayTransparent};
   opacity: ${(props) => (props.logoDisplayed ? 0 : 1)};
   transition: opacity 1.5s ease-out;
 `;
