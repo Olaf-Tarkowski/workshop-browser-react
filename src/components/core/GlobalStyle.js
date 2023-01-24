@@ -12,7 +12,7 @@ export const GlobalStyle = createGlobalStyle`
 
     body {
         margin: 0px;
-        background: ${({ theme }) => theme.color.alabaster};
+        background: ${({ theme }) => theme.color.white};
         color: ${({ theme }) => theme.color.black};
         font-family: 'Roboto Slab', serif;
     }
