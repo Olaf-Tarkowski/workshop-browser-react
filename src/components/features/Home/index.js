@@ -1,9 +1,9 @@
 import Container from "../../common/Container";
 import { Head, Img, SmaleImages, SmallBox, Text } from "./styled";
 import Nissan from "../../resources/foto/car4.jpg";
-import SteringWheel from "../../resources/images/SteringWheel.png";
-import SparckPlug from "../../resources/images/SparckPlug1.png";
-import Break from "../../resources/images/Break.png";
+import SteeringWheel from "../../resources/images/SteeringWheel.png";
+import SparkPlug from "../../resources/images/SparkPlug.png";
+import Brake from "../../resources/images/Brake.png";
 import Pistons from "../../resources/images/Pistons.png";
 
 const Home = () => {
@@ -12,7 +12,7 @@ const Home = () => {
       <Img src={Nissan} />
       <Container>
         <SmallBox>
-          <SmaleImages src={SteringWheel} />
+          <SmaleImages src={SteeringWheel} />
           <Text>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -21,7 +21,7 @@ const Home = () => {
           </Text>
         </SmallBox>
         <SmallBox>
-          <SmaleImages src={SparckPlug} />
+          <SmaleImages src={SparkPlug} />
           <Text>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -31,7 +31,7 @@ const Home = () => {
           </Text>
         </SmallBox>
         <SmallBox>
-          <SmaleImages src={Break} />
+          <SmaleImages src={Brake} />
           <Text>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
