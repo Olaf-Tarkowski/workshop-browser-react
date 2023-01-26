@@ -1,5 +1,5 @@
 import Container from "../../common/Container";
-import { Head, Img, SmaleImages, SmallBox, Text } from "./styled";
+import { Section, Img, SmaleImages, SmallBox, Text } from "./styled";
 import Nissan from "../../resources/foto/car4.jpg";
 import SteeringWheel from "../../resources/images/SteeringWheel.png";
 import SparkPlug from "../../resources/images/SparkPlug.png";
@@ -8,7 +8,7 @@ import Pistons from "../../resources/images/Pistons.png";
 
 const Home = () => {
   return (
-    <Head>
+    <Section>
       <Img src={Nissan} />
       <Container>
         <SmallBox>
@@ -50,7 +50,7 @@ const Home = () => {
           </Text>
         </SmallBox>
       </Container>
-    </Head>
+    </Section>
   );
 };
 
