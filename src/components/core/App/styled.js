@@ -2,8 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   margin: auto;
-
-  @media (max-width: ${({ theme }) => theme.breakpoint.md}) {
-    margin: 0px auto;
-  }
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 `;
