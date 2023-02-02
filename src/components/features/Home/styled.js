@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Section = styled.section`
+export const Main = styled.main`
   display: flex;
   flex-direction: column;
 `;
@@ -12,6 +12,7 @@ export const SmaleImages = styled.img`
 `;
 
 export const SmallBox = styled.div`
+  width: 580px;
   padding: 25px;
   display: flex;
   align-items: center;
@@ -19,5 +20,4 @@ export const SmallBox = styled.div`
 
 export const Text = styled.div`
   padding: 0 25px;
-  max-width: 500px;
 `;
