@@ -1,15 +1,19 @@
 import styled from "styled-components";
 
-export const Section = styled.section`
+export const Main = styled.main`
+`;
+
+export const Section = styled.div`
   display: flex;
   margin: 30px 0;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
 `;
 
 export const Text = styled.div`
   max-width: 600px;
-  padding: 20px;
+  padding-right: 40px;
 `;
 
 export const SectionImg = styled.div`
@@ -28,15 +32,18 @@ export const StyledImg = styled.div`
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 `;
 
+export const ImgAbove = styled.div``;
+
+export const ImgBelow = styled.div`
+  position: relative;
+  height: 200px;
+  top: -137px;
+`;
+
 export const StyledImgBelow = styled.div`
   position: relative;
   top: -62px;
   right: -140px;
-`;
-
-export const ImgBelow = styled.div`
-  position: relative;
-  top: -137px;
 `;
 
 export const Img = styled.img`
