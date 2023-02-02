@@ -7,6 +7,7 @@ import {
   StyledImgBelow,
   Text,
   ImgBelow,
+  ImgAbove,
 } from "./styled";
 import Nissan350z from "../../resources/foto/350z.jpg";
 import Impreza from "../../resources/foto/impreza.jpg";
@@ -43,7 +44,7 @@ const About = () => {
           to make a type specimen book. It has survived not
         </Text>
         <SectionImg>
-          <div>
+          <ImgAbove>
             <StyledImg>
               <Img src={Nissan350z} />
             </StyledImg>
@@ -52,7 +53,7 @@ const About = () => {
                 <Img src={Impreza} />
               </StyledImg>
             </StyledImgBelow>
-          </div>
+          </ImgAbove>
           <ImgBelow>
             <StyledImg>
               <Img src={S2000} />
