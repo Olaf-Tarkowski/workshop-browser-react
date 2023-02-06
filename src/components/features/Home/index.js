@@ -1,15 +1,15 @@
 import Container from "../../common/Container";
-import { Main, Img, SmaleImages, SmallBox, Text } from "./styled";
-import Nissan from "../../resources/foto/car4.jpg";
+import { Main, SmaleImages, SmallBox, Text } from "./styled";
 import SteeringWheel from "../../resources/images/SteeringWheel.png";
 import SparkPlug from "../../resources/images/SparkPlug.png";
 import Brake from "../../resources/images/Brake.png";
 import Pistons from "../../resources/images/Pistons.png";
+import Hero from "../../common/Hero";
 
 const Home = () => {
   return (
     <Main>
-      <Img src={Nissan} />
+      <Hero />
       <Container>
         <SmallBox>
           <SmaleImages src={SteeringWheel} />
