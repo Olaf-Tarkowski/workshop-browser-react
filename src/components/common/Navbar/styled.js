@@ -1,8 +1,7 @@
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 
-export const Background = styled.div`
-  background: ${({ theme }) => theme.color.gray};
+export const Section = styled.section`
 `;
 
 export const Nav = styled.nav`
@@ -40,6 +39,5 @@ export const StyledNavLink = styled(NavLink)`
 `;
 
 export const Logo = styled.img`
-  padding: 0 35px;
-  width: 350px;
+  height:47px;
 `;
