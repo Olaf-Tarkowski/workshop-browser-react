@@ -24,16 +24,17 @@ export const StyledList = styled.ul`
 `;
 
 export const StyledNavLink = styled(NavLink)`
-  transition: 0.8s;
-  padding: 0 35px;
+  margin: 0 35px;
+  font-weight: 700;
   font-size: 20px;
   text-decoration: none;
   color: ${({ theme }) => theme.color.black};
   &.active {
-    font-weight: 700;
+    border-bottom: 2px solid ${({ theme }) => theme.color.black};
     color: ${({ theme }) => theme.color.black};
   }
   &:hover {
+    border-bottom: 2px solid ${({ theme }) => theme.color.black};
     color: ${({ theme }) => theme.color.black};
   }
 `;
