@@ -1,8 +1,6 @@
 import {
   FirstLine,
   Img,
-  Logo,
-  LogoContainer,
   SecondLine,
   Section,
   StyledImg,
@@ -14,14 +12,10 @@ import S2000 from "../../resources/foto/s2000.jpg";
 import Nissan370z from "../../resources/foto/370z.jpg";
 import Supra from "../../resources/foto/supra.jpg";
 import Skyline from "../../resources/foto/skyline.jpg";
-import DarkLogo from "../../resources/images/LogoWhitePro.png";
 
 const Hero = () => {
   return (
     <Section>
-      <LogoContainer>
-        <Logo src={DarkLogo} />
-      </LogoContainer>
       <FirstLine>
         <StyledImg>
           <Img src={Nissan350z} />

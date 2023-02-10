@@ -1,15 +1,5 @@
 import styled from "styled-components";
 
-export const LogoContainer = styled.div`
-  position: absolute;
-  display: flex;
-  z-index: 99;
-`;
-
-export const Logo = styled.img`
-  max-width: 1600px;
-`;
-
 export const Section = styled.section`
   margin: auto;
   display: flex;
