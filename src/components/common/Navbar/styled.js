@@ -9,22 +9,31 @@ export const Nav = styled.nav`
   padding: 20px 0;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 `;
 
-export const StyledList = styled.ul`
-  margin: 0px;
-  padding: 0px;
-  width: 100%;
-  height: 50px;
-  color: ${({ theme }) => theme.color.black};
+export const NavSection = styled.section`
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  list-style: none;
+  gap: 70px;
+
+  @media (max-width: 1000px) {
+    position: absolute;
+    padding: 87px 55px;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    top: 0;
+    left: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
+    background-color: #ffffff;
+    color: #000000;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+  }
 `;
 
 export const StyledNavLink = styled(NavLink)`
-  margin: 0 35px;
   font-weight: 700;
   font-size: 20px;
   text-decoration: none;
@@ -41,4 +50,10 @@ export const StyledNavLink = styled(NavLink)`
 
 export const Logo = styled.img`
   height:47px;
+`;
+
+export const HamburgerMenuContainer = styled.div`
+  @media (min-width: 1000px) {
+    display: none;
+  }
 `;
